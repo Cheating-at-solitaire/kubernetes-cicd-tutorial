@@ -21,6 +21,8 @@ app.post('/grades', (req, res) => {
   console.log('Received POST request, added new grade:', newGrade);
   res.json(newGrade);
 });
+// To get this Node.js API up and running:
+//
 
 const port = 3000;
 app.listen(port, () => {
@@ -28,8 +30,6 @@ app.listen(port, () => {
 });
 
 
-// To get this Node.js API up and running:
-//
 //  First, install the dependencies listed in package.json:
 //   npm install
 //
@@ -37,4 +37,4 @@ app.listen(port, () => {
 //   node app.js
 //
 
-// Trigger CI/CD pipeline...
+// Trigger CI/CD pipeline....
